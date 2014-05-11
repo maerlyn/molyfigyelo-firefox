@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://molywatcher/content/style.css" type="text/css"?>
+
+<!DOCTYPE overlay >
+<overlay id="molywatcher-overlay"
+  xmlns:html="http://www.w3.org/1999/xhtml"
+  xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+<!-- Firefox -->
+<statusbar id="status-bar">
+	<statusbarpanel id="molywatcher-statusbarpanel" tooltip="molywatcher-tooltip">
+		<image id="molywatcher-image" width="16" height="16" src="chrome://molywatcher/content/images/moly.png" />
+		<label id="molywatcher-count" value = "" style="display: none;" />
+		<tooltip id="molywatcher-tooltip" position="before_end"></tooltip>
+	</statusbarpanel>
+	
+	<script src="molywatcher.js" />
+	<html:canvas id="canvas" width="16" height="16" style="display: none;"></html:canvas>	
+	<html:canvas id="localcanvas" width="16" height="16" style="display: none;"></html:canvas>
+</statusbar>
+
+</overlay>
