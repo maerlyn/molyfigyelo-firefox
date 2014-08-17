@@ -1,4 +1,0 @@
-content molywatcher chrome/content/
-
-# Firefox
-overlay	chrome://browser/content/browser.xul chrome://molywatcher/content/molywatcher.xul
