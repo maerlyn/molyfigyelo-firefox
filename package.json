@@ -1,0 +1,9 @@
+{
+  "name": "moly-figyelo",
+  "title": "Moly-figyelő",
+  "id": "molyfigyelo@moly.hu",
+  "description": "molyon figyeli, van-e olvasatlan frissed",
+  "author": "Gábor Fási <m@maerlyn.eu>",
+  "license": "MPL 2.0",
+  "version": "2.0"
+}
